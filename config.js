@@ -5,8 +5,8 @@
 require("dotenv").config();
 require("colors");
 
-const SECRET_KEY = process.env.SECRET_KEY || "secret-dev";
-
+// const SECRET_KEY = process.env.SECRET_KEY || "secret-dev";
+const SECRET_KEY = process.env.SECRET_KEY || "jobly";
 const PORT = +process.env.PORT || 3001;
 
 // Use dev database, testing database, or via env var, production database
